@@ -28,22 +28,22 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-steve.learn(some_knowledge)
+steve.learn(avi.teach)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-steve.learn(some_knowledge)
+steve.learn(avi.teach)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-al.learn(some_knowledge)
+al.learn(avi.teach)
 
 puts "Al just learned this important knowledge: '#{al.knowledge.first}' from Avi"
 
-al.learn(some_knowledge)
+al.learn(avi.teach)
 
 puts "Al just learned this important knowledge: '#{al.knowledge.first}' from Avi"
 
-al.learn(some_knowledge)
+al.learn(avi.teach)
 
 puts "Al just learned this important knowledge: '#{al.knowledge.first}' from Avi"
