@@ -30,4 +30,4 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 
 3.times al.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+puts "Al just learned this important knowledge: '#{al.knowledge.first}' from Avi"
