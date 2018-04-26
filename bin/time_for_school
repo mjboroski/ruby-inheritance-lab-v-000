@@ -24,10 +24,14 @@ avi.last_name = "Slim"
 
 some_knowledge = avi.teach
 
-4.times steve.learn(some_knowledge)
+4.times do
+  steve.learn(some_knowledge)
+end
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-3.times al.learn(some_knowledge)
+3.times do
+  al.learn(some_knowledge)
+end
 
 puts "Al just learned this important knowledge: '#{al.knowledge.first}' from Avi"
